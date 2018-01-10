@@ -1,0 +1,10 @@
+.job-list-item {
+    padding: 16px;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-list-item-metadata {
+    text-align: right;
+}

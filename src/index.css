@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    min-height: 100vh;
+}
+
+header {
+    height: 50px;
+    padding: 0 24px;
+    color: #c9e2f1;
+    background: #2B7FC3;
+    border-top: 4px solid #1D5C8F;
+    border-bottom: 2px solid #D7D5D4;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
