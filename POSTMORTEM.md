@@ -28,7 +28,11 @@ liking. I prefer having a little more control over Webpack configurations.
 
 ### Perceived Strengths
 The greatest strength to this application is in the use of Promise based, 
-async/await driven data retrieval. The intent was to make a fetch-like
+async/await driven data retrieval. The intent was to make a fetch-like interface
+for JSONP. The use of JSONP prevented me from using a traditional fetch approach.
+The use of fetch is technically possible through `mode: no-cors`, but the response
+would be and opaque and practically unusable. By leveraging Promises, I was able
+to avoid a cumbersome callback pattern.
 
 ### Perceived Weaknesses
 There is a significant lack of unit testing on this project. I only wrote tests
